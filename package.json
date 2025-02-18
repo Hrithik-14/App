@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "homepage": "https://hrithik-14.github.io/App/",
     "deploy" : "gh-pages -d dist"
   },
