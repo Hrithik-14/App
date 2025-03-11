@@ -1,17 +1,31 @@
+// import React from 'react'
+// import TodoList from './Todo'
+
+
+
+// function App() {
+
+
+//   return (
+//     <>
+//     <div>
+//       <TodoList/>
+//     </div>
+//     </>
+//   )
+// }
+
+// export default App
 import React from 'react'
-import TodoList from './Todo'
-
-
+import Color1 from './Color1'
+import Color2 from './Color2'
 
 function App() {
-
-
   return (
-    <>
     <div>
-      <TodoList/>
+      <Color1/>
+      <Color2/>
     </div>
-    </>
   )
 }
 
