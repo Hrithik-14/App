@@ -20,7 +20,7 @@
 
 
 import { createSlice } from '@reduxjs/toolkit'
-import React from 'react'
+
 
 const colorSlice =  createSlice({
     name : 'color',
@@ -37,3 +37,6 @@ const colorSlice =  createSlice({
 
 export const { setColor } = colorSlice.actions
 export default colorSlice.reducer
+
+
+
